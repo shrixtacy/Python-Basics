@@ -21,4 +21,18 @@ print(f"Hey{first_name} your age is {age} and your weight is {weight}")
 
 #float
 price = 9.99
+gpa = 8.9
 print(f"Your amount is ${price}")
+
+
+#boolean
+
+ismale = True
+print(f"Is he a male: {ismale}")
+
+#if else statements
+
+if ismale:
+    print("You are a male")
+else:
+    print("You are not a male")
