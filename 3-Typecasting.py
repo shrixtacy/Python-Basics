@@ -13,9 +13,9 @@ print(type(gpa))
 print(type(is_student))
 
 #converting gpa to float
-gpafloat = int(gpa)
-print(gpafloat)
-print(type(gpafloat))
+gpaint = int(gpa)
+print(gpaint)
+print(type(gpaint))
 
 #conveting age into str
 strage = str(age)
@@ -23,3 +23,5 @@ print(strage)
 strage += "1"
 print(strage)
 print(type(strage))
+
+

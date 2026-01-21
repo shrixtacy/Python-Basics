@@ -15,4 +15,13 @@ for i in range(1,100,2):    #this will print only the 2 number skipped values wi
     print(i)
 
 for m in reversed(range(1,10)):  #this will print all the reversed values within ranges
-    print(m)
+    print(m) 
+
+
+#lets count to 20 
+
+for x in range(1, 21):
+    if x == 13:
+        continue     #use continue to skip a number in sequence
+    else:
+        print(x)
