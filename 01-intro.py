@@ -2,7 +2,7 @@
 #print statement is basically used to execute the lines of codes. 
 print("I love Biriyani")
 print("Its really good")
-print("Fuck off")
+print("I am Shriyansh")
 
 #This is also correct but wierd way to write the print statement
 print(
