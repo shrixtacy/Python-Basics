@@ -26,6 +26,14 @@ print()
 print()
 
 
+def display(*name):
+    for name in name:
+        print(name,end=" ")
+
+display("Bihari", "Chor")
+print()
+print()
+
 # **kwargs
 
 def print_address(**kwargs):
