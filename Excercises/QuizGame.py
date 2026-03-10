@@ -53,6 +53,6 @@ print()
 print()
 print("--------YOUR TOTAL SCORE----------")
 score = int(score/len(Questions)* 100)
-print(f"You scores {score} out of 5")
+print(f"You scores {score}%")
 
 

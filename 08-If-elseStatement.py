@@ -17,7 +17,7 @@ else:
 
 Response = input("Would you like food ? ( Y/N ): ")
 
-if Response == "Y":
+if Response == "Y":      #For condition mentioning a string we need double == sign
     print("Have some Food")
 else:
     print("No food for you...Boooo")

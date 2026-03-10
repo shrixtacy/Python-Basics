@@ -68,6 +68,3 @@ print(vegetables.add("tomato"))
 things = ("duck", "dog", "cat", 9, 8, 7, 6.3, "table", "table")
 
 print(things.index(6.3))
-
-for i in things:
-    print i

@@ -14,7 +14,7 @@ for m in range(3):
       print(n, end=" ")       #the end="" is basically to stop the line and continue down we can add any symbol that adds up at the end of the line after execution
    print()
 
-#Example 2
+# Example 2
 
 rows = int(input("Enter the number of Rows: "))
 columns = int(input("Enter the number of Columns: "))
@@ -32,7 +32,7 @@ for x in range(rows):        #Outer Loop
 for p in range ( 1, 6):
    for q in range(p):
       print("*", end="")
-   print()
+   print()  
 
 # a Hollow square nested loop
 
@@ -45,15 +45,3 @@ for t in range(n):
       else:
         print(" ",end="")
 print()
-
-
-# While loop inside a for loop
-
-v = 20
-
-while v > 0:
-   for u in range(9):
-      print("Do something")
-   print()
-
-

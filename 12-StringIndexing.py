@@ -22,5 +22,6 @@ print(credit_number[::3]) #this basically prints every third character of our st
 credit = "1234-5678-9012-1223"
 
 last_digit = credit[-4:]
+reverse_string = credit[::-1] #This would reverse a string
 
 print(f"This is your credit card XXXX-XXXX-XXXX-{last_digit}")
