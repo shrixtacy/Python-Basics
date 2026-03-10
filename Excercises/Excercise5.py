@@ -7,7 +7,6 @@
 username = input("Enter a username: ")
 
 
-
 if len(username) > 12:
     print("Your user name cannot be more than 12 characters.")
 elif not username.find(" ") == -1:

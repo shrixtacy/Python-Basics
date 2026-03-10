@@ -1,10 +1,14 @@
 #For Loops = execute a block of code a dixed numvber of times.
 #             you can iterate over a range , string , sequence , etc
 
+# Mainly for loop can be exuecuted for multiple collection like list , tuples , sets or range() in range we can give any input even a array as well
+
+#Advanced loop control - Break ( terminates loop ) , continue ( skips the current iteration) , if/else , pass ( a placeholder does nothing )
+
 credit_card = "1234-5678-9012-3456"
 
 for x in credit_card: 
-    print(x)
+    print(x, end = " ")
 
 #another example
 

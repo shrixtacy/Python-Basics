@@ -48,6 +48,3 @@ print("------Total Score & Percentage------")
 print(f"The total numeric Score is {score} out of 3")
 score_percent = int(score/len(Questions)*100)
 print(f"The score percentage is {score_percent}")
-
-
-    

@@ -13,7 +13,7 @@ name_digit = name.isdigit() #If name contains number it returns false or true
 name_alpha = name.isalpha() #It basically checks for the alphabets and return true or false based on it 
 
 num_count = num.count("2")  #Counts the given number's occurances from the string / integer and gives the final value 
-new_num = num.replace("2","8")
+new_num = num.replace("2","8")  #It replaces the existing number with given number
 
 print(result)
 print(result1)

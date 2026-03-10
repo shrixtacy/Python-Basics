@@ -16,8 +16,8 @@ else:
 
 #AND Example
 
-temp2 = -2
-is_sunny = False
+temp2 = 40
+is_sunny = True
 
 if temp2 >= 28 and is_sunny:
     print("you'll be cooked bro 😭🙏")
